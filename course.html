@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Available Courses - LearnHub</title>
+    <link rel="stylesheet" href="course.css">
+    <style>
+        /* Add this CSS to your existing CSS file or within a <style> tag */
+        .back-button {
+            position: fixed; /* Fix the position */
+            bottom: 20px; /* Distance from the bottom */
+            left: 20px; /* Distance from the left */
+            padding: 10px 15px; /* Padding for the button */
+            background-color: #007BFF; /* Button background color */
+            color: white; /* Button text color */
+            border: none; /* Remove border */
+            border-radius: 5px; /* Rounded corners */
+            cursor: pointer; /* Pointer cursor on hover */
+            font-weight: bold; /* Make the text bold */
+            z-index: 1000; /* Ensure it appears above other elements */
+        }
+
+        .back-button:hover {
+            background-color: #0056b3; /* Darker shade on hover */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to LearnHub</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Available Courses</a></li>
+                <li><a href="learn.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="courses">
+            <h2>Available Courses</h2>
+            <div class="course-container">
+                <div class="course-card">
+                    <img src="1.png" alt="Web Development Masterclass">
+                    <h3><a href="w.html">Web Development Masterclass</a></h3>
+                    <p>Master the skills of web development, including HTML, CSS, and JavaScript.</p>
+                </div>
+                <div class="course-card">
+                    <img src="2.png" alt="UI/UX Design Fundamentals">
+                    <h3><a href="d.html">UI/UX Design Fundamentals</a></h3>
+                    <p>Learn the principles of user interface and user experience design.</p>
+                </div>
+                <div class="course-card">
+                    <img src="3.png" alt="Digital Marketing Strategy">
+                    <h3><a href="dm.html">Digital Marketing Strategy</a></h3>
+                    <p>Explore effective strategies for digital marketing and brand building.</p>
+                </div>
+                <div class="course-card">
+                    <img src="4.png" alt="Business Analytics & Data Science">
+                    <h3><a href="ba.html">Business Analytics & Data Science</a></h3>
+                    <p>Understand data analysis and its application in business decision-making.</p>
+                </div>
+                <div class="course-card">
+                    <img src="5.png" alt="Mobile App Development">
+                    <h3><a href="md.html">Mobile App Development</a></h3>
+                    <p>Learn to build mobile applications for iOS and Android platforms.</p>
+                </div>
+                <div class="course-card">
+                    <img src="6.png" alt="Graphic Design for Beginners">
+                    <h3><a href="gd.html">Graphic Design for Beginners</a></h3>
+                    <p>Get started with graphic design and learn the basics of visual communication.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2023 LearnHub. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="login.html">Login</a>
+                <span>|</span>
+                <a href="signup.html">Register</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back Button -->
+    <button class="back-button" onclick="javascript:history.back()">&#9664; Back</button>
+
+<script src="login.js"></script> 
+</body>
+</html>

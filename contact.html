@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - LearnHub</title>
+    <link rel="stylesheet" href="contact.css">
+
+    <style>
+        /* Add this CSS to your existing CSS file or within a <style> tag */
+        .back-button {
+            position: fixed; /* Fix the position */
+            bottom: 20px; /* Distance from the bottom */
+            left: 20px; /* Distance from the left */
+            padding: 10px 15px; /* Padding for the button */
+            background-color: #007BFF; /* Button background color */
+            color: white; /* Button text color */
+            border: none; /* Remove border */
+            border-radius: 5px; /* Rounded corners */
+            cursor: pointer; /* Pointer cursor on hover */
+            font-weight: bold; /* Make the text bold */
+            z-index: 1000; /* Ensure it appears above other elements */
+        }
+
+        .back-button:hover {
+            background-color: #0056b3; /* Darker shade on hover */
+        }
+    </style>
+
+
+</head>
+<body>
+    <header>
+        <h1>Contact Us</h1>
+        <nav>
+            <ul>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="contact.html">Help Center</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="contact">
+            <h2>Get in Touch</h2>
+            <p>We'd love to hear from you! Please fill out the form below to reach out to us.</p>
+            <form action="mailto:kakiletiprasheeth3@gmail.com" method="POST" enctype="text/plain">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+
+        <section id="help-center">
+            <h2>Help Center</h2>
+            <p>Find answers to your questions in our Help Center.</p>
+            <ul>
+                <li><a href="faq.html">Frequently Asked Questions</a></li>
+                
+                <li><a href="contact.html">Support Articles</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2023 LearnHub. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="login.html">Login</a>
+                <span>|</span>
+                <a href="signup.html">Register</a>
+            </div>
+        </div>
+    </footer>
+    <button class="back-button" onclick="javascript:history.back()">&#9664; Back</button>
+</body>
+</html>

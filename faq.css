@@ -1,0 +1,132 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Light background for contrast */
+}
+
+header {
+    background-color: #007BFF; /* Primary color */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Soft shadow */
+    border-radius: 8px; /* Rounded corners */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s; /* Smooth color transition */
+}
+
+nav a:hover {
+    color: #e0e0e0; /* Lighter color on hover */
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    background: white;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 10px; /* More rounded corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Enhanced shadow */
+    transition: transform 0.3s; /* Smooth animation */
+}
+
+section:hover {
+    transform: translateY(-2px); /* Lift effect on hover */
+}
+
+h2 {
+    color: #007BFF; /* Primary color for headings */
+    margin-bottom: 20px;
+    font-size: 1.8em; /* Larger font size for headings */
+}
+
+.faq-item {
+    border-bottom: 1px solid #ddd;
+    padding: 15px 0;
+    transition: background-color 0.3s; /* Smooth background transition */
+}
+
+.faq-item:last-child {
+    border-bottom: none; /* Remove border for the last item */
+}
+
+.faq-item:hover {
+    background-color: rgba(0, 123, 255, 0.1); /* Light blue background on hover */
+}
+
+.faq-item h3 {
+    cursor: pointer;
+    color: #007BFF; /* Primary color for questions */
+    transition: color 0.3s, text-shadow 0.3s; /* Smooth transition for color and shadow */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px; /* Padding for better click area */
+    border-radius: 5px; /* Rounded corners for the question */
+}
+
+.faq-item h3:hover {
+    color: #042950; /* Darker shade on hover */
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.2); /* Shadow effect on hover */
+}
+
+.faq-answer {
+    display: none; /* Hide answers by default */
+    margin-top: 10px;
+    padding: 10px;
+    background-color: rgba(240, 240, 240, 0.9); /* Light gray background with transparency */
+    border-left: 4px solid #007BFF; /* Left border for emphasis */
+    border-radius: 5px; /* Rounded corners for answers */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Soft shadow for answers */
+    transition: max-height 0.3s ease, opacity 0.3s ease; /* Smooth transition for visibility */
+    max-height: 0; /* Initially hidden */
+    opacity: 0; /* Initially hidden */
+    overflow: hidden; /* Hide overflow */
+}
+
+.faq-answer.visible {
+    display: block; /* Show answer when visible class is added */
+    max-height: 200px; /* Set a max height for the transition */
+    opacity: 1; /* Fade in effect */
+}
+
+.registration-prompt {
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #e9ecef; /* Light gray background */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    
+}
+
+.registration-prompt p {
+    margin: 0 0 10px;
+    font-size: 18px;
+    
+    
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;}

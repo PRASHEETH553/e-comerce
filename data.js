@@ -1,0 +1,147 @@
+const courses = [
+    {
+        id: 1,
+        title: "Web Development Masterclass",
+        instructor: "John Smith",
+        thumbnail: "1.png",
+        price: 99.99,
+        rating: 4.8,
+        students: 15430,
+        duration: "32 hours",
+        videoUrl: "https://www.youtube.com/watch?v=PkZNo7MFNFg",
+        category: "programming"
+    },
+    {
+        id: 2,
+        title: "UI/UX Design Fundamentals",
+        instructor: "Sarah Johnson",
+        thumbnail: "2.png",
+        price: 89.99,
+        rating: 4.7,
+        students: 12250,
+        duration: "28 hours",
+        videoUrl: "https://www.youtube.com/watch?v=c9Wg6Cb_YlU",
+        category: "design"
+    },
+    {
+        id: 3,
+        title: "Digital Marketing Strategy",
+        instructor: "Mike Wilson",
+        thumbnail: "3.png",
+        price: 79.99,
+        rating: 4.6,
+        students: 8920,
+        duration: "24 hours",
+        videoUrl: "https://youtu.be/kunkYTKFNtI?si=_SZwJqcRkkOYfeIx",
+        category: "marketing"
+    },
+    {
+        id: 4,
+        title: "Business Analytics & Data Science",
+        instructor: "Emily Chen",
+        thumbnail: "4.png",
+        price: 109.99,
+        rating: 4.9,
+        students: 10780,
+        duration: "40 hours",
+        videoUrl: "https://www.youtube.com/watch?v=ua-CiDNNj30",
+        category: "business"
+    },
+    {
+        id: 5,
+        title: "Mobile App Development",
+        instructor: "David Brown",
+        thumbnail: "5.png",
+        price: 94.99,
+        rating: 4.7,
+        students: 7650,
+        duration: "36 hours",
+        videoUrl: "https://www.youtube.com/watch?v=0-S5a0eXPoc",
+        category: "programming"
+    },
+    {
+        id: 6,
+        title: "Graphic Design for Beginners",
+        instructor: "Lisa Anderson",
+        thumbnail: "6.png",
+        price: 69.99,
+        rating: 4.5,
+        students: 6340,
+        duration: "20 hours",
+        videoUrl: "https://www.youtube.com/watch?v=WONZVnlam6U",
+        category: "design"
+    },
+    {
+        id: 1,
+        title: "Web Development Masterclass",
+        instructor: "John Smith",
+        thumbnail: "1.png",
+        price: 99.99,
+        rating: 4.8,
+        students: 15430,
+        duration: "32 hours",
+        videoUrl: "https://www.youtube.com/watch?v=PkZNo7MFNFg",
+        category: "programming"
+    },
+    {
+        id: 2,
+        title: "UI/UX Design Fundamentals",
+        instructor: "Sarah Johnson",
+        thumbnail: "2.png",
+        price: 89.99,
+        rating: 4.7,
+        students: 12250,
+        duration: "28 hours",
+        videoUrl: "https://www.youtube.com/watch?v=c9Wg6Cb_YlU",
+        category: "design"
+    },
+    {
+        id: 3,
+        title: "Digital Marketing Strategy",
+        instructor: "Mike Wilson",
+        thumbnail: "3.png",
+        price: 79.99,
+        rating: 4.6,
+        students: 8920,
+        duration: "24 hours",
+        videoUrl: "https://youtu.be/kunkYTKFNtI?si=_SZwJqcRkkOYfeIx",
+        category: "marketing"
+    },
+    {
+        id: 4,
+        title: "Business Analytics & Data Science",
+        instructor: "Emily Chen",
+        thumbnail: "4.png",
+        price: 109.99,
+        rating: 4.9,
+        students: 10780,
+        duration: "40 hours",
+        videoUrl: "https://www.youtube.com/watch?v=ua-CiDNNj30",
+        category: "business"
+    },
+    {
+        id: 5,
+        title: "Mobile App Development",
+        instructor: "David Brown",
+        thumbnail: "5.png",
+        price: 94.99,
+        rating: 4.7,
+        students: 7650,
+        duration: "36 hours",
+        videoUrl: "https://www.youtube.com/watch?v=0-S5a0eXPoc",
+        category: "programming"
+    },
+    {
+        id: 6,
+        title: "Graphic Design for Beginners",
+        instructor: "Lisa Anderson",
+        thumbnail: "6.png",
+        price: 69.99,
+        rating: 4.5,
+        students: 6340,
+        duration: "20 hours",
+        videoUrl: "https://www.youtube.com/watch?v=WONZVnlam6U",
+        category: "design"
+    }
+
+];

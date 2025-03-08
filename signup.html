@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Form</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+    <div class="signup-container">
+        <form class="signup-form">
+            <h2>Sign Up</h2>
+            <div class="form-group">
+                <label for="student-id">Student ID</label>
+                <input type="text" id="student-id" name="student-id" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email ID</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+            <div class="form-group">
+                <label for="address">Address</label>
+                <textarea id="address" name="address" rows="3" required></textarea>
+            </div>
+            <div class="form-group">
+                <label for="education">Education Qualification</label>
+<select id="education" name="education" required>
+    <option value="" disabled selected>Select your course</option>
+    
+    <!-- High School -->
+    <option value="high-school">High School</option>
+    
+    <!-- Bachelor's Degrees -->
+    <option value="bachelor-computer-science">Bachelor's Degree in Computer Science</option>
+    <option value="bachelor-business-administration">Bachelor's Degree in Business Administration</option>
+    <option value="bachelor-engineering">Bachelor's Degree in Engineering</option>
+    <option value="bachelor-arts">Bachelor's Degree in Arts</option>
+    <option value="bachelor-nursing">Bachelor's Degree in Nursing</option>
+    
+    <!-- Master's Degrees -->
+    <option value="master-business-administration">Master's Degree in Business Administration (MBA)</option>
+    <option value="master-computer-science">Master's Degree in Computer Science</option>
+    <option value="master-engineering">Master's Degree in Engineering</option>
+    <option value="master-public-health">Master's Degree in Public Health</option>
+    
+    <!-- PhD -->
+    <option value="phd-computer-science">PhD in Computer Science</option>
+    <option value="phd-engineering">PhD in Engineering</option>
+    <option value="phd-psychology">PhD in Psychology</option>
+    
+    <!-- Diplomas -->
+    <option value="diploma-nursing">Diploma in Nursing</option>
+    <option value="diploma-graphic-design">Diploma in Graphic Design</option>
+    <option value="diploma-web-development">Diploma in Web Development</option>
+    
+    <!-- Certificates -->
+    <option value="certificate-digital-marketing">Certificate in Digital Marketing</option>
+    <option value="certificate-data-science">Certificate in Data Science</option>
+    <option value="certificate-project-management">Certificate in Project Management</option>
+</select>
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="form-group">
+                <label for="confirm-password">Confirm Password</label>
+                <input type="password" id="confirm-password" name="confirm-password" required>
+            </div>
+            <button type="submit">Sign Up</button>
+            <p class="message">Already registered? <a href="login.html">Login</a></p>
+        </form>
+    </div>
+</body>
+</html>

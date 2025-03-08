@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ - LearnHub</title>
+    <link rel="stylesheet" href="faq.css">
+
+    <style>
+        /* Add this CSS to your existing CSS file or within a <style> tag */
+        .back-button {
+            position: fixed; /* Fix the position */
+            bottom: 20px; /* Distance from the bottom */
+            left: 20px; /* Distance from the left */
+            padding: 10px 15px; /* Padding for the button */
+            background-color: #007BFF; /* Button background color */
+            color: white; /* Button text color */
+            border: none; /* Remove border */
+            border-radius: 5px; /* Rounded corners */
+            cursor: pointer; /* Pointer cursor on hover */
+            font-weight: bold; /* Make the text bold */
+            z-index: 1000; /* Ensure it appears above other elements */
+        }
+
+        .back-button:hover {
+            background-color: #0056b3; /* Darker shade on hover */
+        }
+    </style>
+
+</head>
+<body>
+    <header>
+        <h1>Frequently Asked Questions</h1>
+        <nav>
+            <ul>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="course.html">Available Courses</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="faq">
+            <h2>General Questions</h2>
+            <div class="faq-item">
+                <h3>1. What is LearnHub? ➔</h3>
+                <p class="faq-answer">LearnHub is an online learning platform that offers a variety of courses to help you enhance your skills and knowledge in different fields.</p>
+            </div>
+            <div class="faq-item">
+                <h3>2. How do I create an account? ➔</h3>
+                <p class="faq-answer">You can create an account by clicking on the "Register" button on the homepage and filling out the required information.</p>
+            </div>
+            <div class="faq-item">
+                <h3>3. Are the courses free? ➔</h3>
+                <p class="faq-answer">Some courses are free, while others may require a fee. Please check the course details for pricing information.</p>
+            </div>
+            <div class="faq-item">
+                <h3>4. How can I access the courses? ➔</h3>
+                <p class="faq-answer">Once you have registered and logged in, you can browse the available courses and enroll in the ones you are interested in.</p>
+            </div>
+            <div class="faq-item">
+                <h3>5. Can I get a certificate after completing a course? ➔</h3>
+                <p class="faq-answer">Yes, upon successful completion of a course, you will receive a certificate that you can download and share.</p>
+            </div>
+            <div class="faq-item">
+                <h3>6. What if I have more questions? ➔</h3>
+                <p class="faq-answer">If you have any additional questions, feel free to contact our support team through the "Contact Us" page.</p>
+            </div>
+            <div class="faq-item">
+                <h3>7. How long do I have access to the courses? ➔</h3>
+                <p class="faq-answer">You will have lifetime access to the courses you enroll in, allowing you to learn at your own pace.</p>
+            </div>
+            <div class="faq-item">
+                <h3>8. Can I learn on mobile devices? ➔</h3>
+                <p class="faq-answer">Yes, our platform is mobile-friendly, allowing you to learn on your smartphone or tablet.</p>
+            </div>
+            <div class="faq-item">
+                <h3>9. Are there any prerequisites for the courses? ➔</h3>
+                <p class="faq-answer">Some courses may have prerequisites, which will be listed in the course description.</p>
+            </div>
+            <div class="faq-item">
+                <h3>10. How can I contact support? ➔</h3>
+                <p class="faq-answer">You can reach our support team through the "Contact Us" page or by emailing support@learnhub.com.</p>
+            </div>
+        </section>
+
+        <div class="registration-prompt">
+            <p>Didn't register yet? Join us today!</p>
+            <a href="login.html" class="button">Login</a>
+            <a href="signup.html" class="button">Sign Up</a>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2023 LearnHub. All rights reserved.</p>
+        </div>
+    </footer>
+    <button class="back-button" onclick="javascript:history.back()">&#9664; Back</button>
+
+    <script src="faq.js"></script>
+</body>
+</html>
